@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # Fabfile to distribute an archive to a web server.
 import os.path
+from fabric import Connection
 from fabric.api import env
 from fabric.api import put
 from fabric.api import run
